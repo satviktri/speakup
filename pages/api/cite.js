@@ -1,5 +1,3 @@
-import fetch from 'cross-fetch';
-
 const formatAuthors = (authors = []) => {
   if (!authors.length) return 'Unknown';
   const getName = (author) => author.family || author.name || author.given || 'Unknown';
